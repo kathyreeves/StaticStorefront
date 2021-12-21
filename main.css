@@ -1,0 +1,116 @@
+body {
+    font-size: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(216, 233, 251);
+    padding: 0;
+    margin: 0 0 0 0em;
+    position: relative;
+    }
+
+    h1{
+        color:rgb(59, 130, 0);
+        font-size: 5.0em;
+        margin: .5em 0em .5em 7em;
+        padding: 0;
+        position: relative;
+    }       
+
+    h2 {
+        color: blueviolet;
+        font-size: 3.5em;
+        margin: .5em .4em .5em .8em;
+        padding: 0em;
+        border: 0em;
+        width: 13em;
+    }
+
+    p {
+        color: black;
+        font-size: 1.8em;
+        padding: 0em 7em 1em 5em;
+        margin: 0em 3.3em .55em 0em;
+        border:0em
+     }
+
+    nav {
+        color: #000;
+        font-size: 1.3em;
+        letter-spacing: .3em;
+        padding: .3em 2.0em .2em;
+        float: right;
+        margin: -7.9em 1.6em 19em;
+        padding: 0.3em;
+        background-color: rgb(74, 106, 143);
+        position: relative;
+    }
+     nav img {
+        width: 1.7em;
+        height: auto;
+        margin: em 1.4em .55em 0.1em;
+    }
+
+     nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    nav li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+    nav li a, nav li a:visited {
+        text-decoration: none;
+        color: 000;
+        width: 2em;            
+        height: auto
+    }
+
+    nav li a:hover {
+        color:rgb(248, 171, 71);
+        background-color: rgb(184, 194, 181);
+        width: 2em;
+        height: auto;    
+    }
+
+   .wrapper {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }  
+
+    .wrapper img {
+        width: 33em;
+        padding-left: 0.9em;
+        position: relative;
+    }
+                     
+    section #food button {
+        display: flex;
+        justify-content: center;
+        position:relative;
+     } 
+
+     button {
+        margin-left: 12.9em;                 
+    }          
+
+    footer {        
+        display: flex;        
+        flex-direction:row;        
+    }        
+            
+    footer p {                
+        width: 550px;        
+        position: relative;        
+    }        
+
+    section #FAQs p{                       
+        padding-top: none;           
+        padding-bottom: 0em;       
+        position: relative;       
+    }   
+
+
